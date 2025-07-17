@@ -26,6 +26,10 @@ aside {
 }
 
 .noact:hover {
+  background-color: #0d1116;
+}
+
+.noact:hover {
   background-color: #1e232c;
 }
 
@@ -54,7 +58,7 @@ aside {
 }
 
 .button-container {
-  width: 210px;
+  width: 200px;
   height: 290px;
   display: flex;
   flex-direction: column;
