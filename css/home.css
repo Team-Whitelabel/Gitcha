@@ -21,6 +21,10 @@ aside {
   border-right: 1px solid #2f353d;
 }
 
+.act {
+  background-color: #333842;
+}
+
 .side-container {
   width: 100%;
   height: 100%;
@@ -28,7 +32,7 @@ aside {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 400px;
+  gap: 310px;
 }
 
 .top-side-container {
@@ -37,7 +41,7 @@ aside {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 90px;
+  gap: 50px;
 }
 
 .logo-img {
@@ -46,8 +50,8 @@ aside {
 }
 
 .button-container {
-  width: 220px;
-  height: 190px;
+  width: 210px;
+  height: 290px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -61,7 +65,7 @@ a.side-button {
   font-size: 18px;
   font-weight: 600;
   width: 100%;
-  height: 52px;
+  height: 48px;
   border-radius: 10px;
   display: flex;
   align-items: center;
@@ -69,7 +73,7 @@ a.side-button {
 }
 
 a.side-button:hover {
-  background-color: #161b22;
+  background-color: #1e232c;
 }
 
 .bottom-side-container {
