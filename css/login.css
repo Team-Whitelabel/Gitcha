@@ -60,5 +60,9 @@ body {
 
 .login-button:hover {
   background-color: #e0e0e0;
-  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
