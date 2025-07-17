@@ -1,0 +1,125 @@
+body {
+  font-family: "inter", sans-serif;
+  background-color: #02040a;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+aside {
+  background-color: #0d1116;
+  width: 290px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #2f353d;
+}
+
+.act {
+  background-color: #333842;
+}
+
+.noact:hover {
+  background-color: #1e232c;
+}
+
+.side-container {
+  padding-top: 40px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 370px;
+}
+
+.top-side-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.logo-img {
+  width: 50px;
+  height: 50px;
+}
+
+.button-container {
+  width: 190px;
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+a.side-button {
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  width: 100%;
+  height: 48px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding-left: 22px;
+}
+
+.homeIcon {
+  width: 20px;
+  height: 20px;
+}
+
+.rankIcon {
+  width: 20px;
+  height: 20px;
+}
+
+.diceIcon {
+  width: 20px;
+  height: 20px;
+}
+
+.profileIcon {
+  width: 20px;
+  height: 20px;
+}
+
+.bottom-side-container {
+  width: 212px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.gits-wallet {
+  font-weight: 500;
+  font-size: 18px;
+  color: white;
+  background-color: #02040a;
+  width: 100%;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+main {
+  width: 1620px;
+  height: 100vh;
+}
