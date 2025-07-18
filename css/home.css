@@ -37,7 +37,7 @@ aside {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 370px;
+  gap: 390px;
 }
 
 .top-side-container {
@@ -89,13 +89,13 @@ a.side-button {
 }
 
 .diceIcon {
-  width: 20px;
-  height: 20px;
+  width: 22px;
+  height: 22px;
 }
 
 .profileIcon {
-  width: 20px;
-  height: 20px;
+  width: 22px;
+  height: 22px;
 }
 
 .bottom-side-container {
