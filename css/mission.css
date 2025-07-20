@@ -37,7 +37,7 @@ aside {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 370px;
+  gap: 390px;
 }
 
 .top-side-container {
@@ -78,24 +78,9 @@ a.side-button {
   padding-left: 22px;
 }
 
-.homeIcon {
+.icon {
   width: 20px;
   height: 20px;
-}
-
-.rankIcon {
-  width: 20px;
-  height: 20px;
-}
-
-.diceIcon {
-  width: 22px;
-  height: 22px;
-}
-
-.profileIcon {
-  width: 22px;
-  height: 22px;
 }
 
 .bottom-side-container {
