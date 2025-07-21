@@ -27,6 +27,7 @@ aside {
 
 .noact:hover {
   background-color: #1e232c;
+  transform: translateX(-10px);
 }
 
 .side-container {
@@ -76,6 +77,7 @@ a.side-button {
   align-items: center;
   gap: 15px;
   padding-left: 22px;
+  transition: all 0.2s ease-in-out;
 }
 
 .icon {
