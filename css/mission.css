@@ -27,7 +27,7 @@ aside {
 
 .noact:hover {
   background-color: #1e232c;
-  transform: translateX(-10px);
+  transform: translateX(-6px);
 }
 
 .side-container {
