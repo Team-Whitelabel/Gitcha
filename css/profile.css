@@ -118,3 +118,37 @@ main {
   align-items: center;
   justify-content: center;
 }
+
+.main-box {
+  background-color: white;
+  width: 1000px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-box {
+  background-color: green;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.profile-text {
+  font-size: 26px;
+  color: white;
+  font-weight: 600;
+}
+
+.middle-box {
+  background-color: black;
+  width: 100%;
+  height: 260px;
+}
+
+.bottom-box {
+  background-color: blue;
+  width: 100%;
+  height: 380px;
+}
