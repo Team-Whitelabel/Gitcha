@@ -145,7 +145,15 @@ main {
   height: 260px;
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 50px;
+}
+
+.middle-box-left {
+  width: 210px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .middle-box-right {
@@ -158,8 +166,8 @@ main {
 
 .profile-picture {
   background-color: white;
-  width: 220px;
-  height: 220px;
+  width: 210px;
+  height: 210px;
   border-radius: 100%;
 }
 
