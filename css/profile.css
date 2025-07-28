@@ -219,7 +219,6 @@ main {
 .edit-icon {
   width: 20px;
   height: 20px;
-  margin-right: 6px;
 }
 
 .bottom-box {
@@ -306,4 +305,22 @@ main {
   background-color: #0d1116;
   border: 1px solid #3d444d;
   border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.commit-img {
+  width: 96%;
+  height: 230px;
+  background-color: gray;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
 }
