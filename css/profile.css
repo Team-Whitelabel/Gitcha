@@ -157,9 +157,8 @@ main {
 }
 
 .middle-box-right {
-  background-color: pink;
   width: 100%;
-  height: 100%;
+  height: 260px;
   display: flex;
   flex-direction: column;
 }
@@ -172,19 +171,63 @@ main {
 }
 
 .middle-box-right-top {
-  background-color: green;
   width: 100%;
-  height: 60px;
+  height: 50px;
+  display: flex;
+  align-items: center;
 }
 
 .middle-box-right-bottom {
   background-color: purple;
   width: 100%;
-  height: 100px;
+  height: 210px;
+}
+
+.middle-box-right-bottom-top {
+  width: 100%;
+  height: 28px;
+  background-color: gray;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.middle-box-right-bottom-bottom {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.description {
+  width: 98%;
+  height: 92%;
+}
+
+.edit-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 6px;
 }
 
 .bottom-box {
   background-color: blue;
   width: 100%;
   height: 380px;
+}
+
+.github-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.github-name {
+  color: white;
+  font-size: 24px;
+}
+
+.github-url {
+  text-decoration: none;
 }
