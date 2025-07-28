@@ -1,0 +1,326 @@
+body {
+  font-family: "inter", sans-serif;
+  background-color: #02040a;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+aside {
+  background-color: #0d1116;
+  width: 290px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #3d444d;
+}
+
+.act {
+  background-color: #333842;
+}
+
+.noact:hover {
+  background-color: #1e232c;
+}
+
+.side-container {
+  padding-top: 40px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 390px;
+}
+
+.top-side-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.logo-img {
+  width: 50px;
+  height: 50px;
+}
+
+.button-container {
+  width: 190px;
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+a.side-button {
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  width: 100%;
+  height: 48px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding-left: 22px;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+.bottom-side-container {
+  width: 212px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.gits-wallet {
+  font-weight: 500;
+  font-size: 18px;
+  color: white;
+  background-color: #02040a;
+  width: 100%;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+main {
+  width: 1620px;
+  height: 100vh;
+}
+
+.main-container {
+  background-color: #02040a;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-box {
+  width: 1000px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-box {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.profile-text {
+  font-size: 26px;
+  color: white;
+  font-weight: 600;
+}
+
+.middle-box {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.middle-box-left {
+  width: 210px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.middle-box-right {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-picture {
+  background-color: white;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+
+.middle-box-right-top {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.middle-box-right-bottom {
+  width: 100%;
+  height: 160px;
+}
+
+.middle-box-right-bottom-top {
+  width: 100%;
+  height: 26px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.middle-box-right-bottom-bottom {
+  border-radius: 5px;
+  border: 1px solid #3d444d;
+  width: 100%;
+  height: 134px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.description {
+  padding-left: 6px;
+  padding-right: 6px;
+  color: white;
+  background-color: #0d1116;
+  border: none;
+  outline: none;
+  resize: none;
+  width: 100%;
+  height: 92%;
+  font-size: 16px;
+}
+
+.description:hover {
+  cursor: not-allowed;
+}
+
+.edit-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.bottom-box {
+  margin-top: 40px;
+  width: 100%;
+  height: 320px;
+}
+
+.github-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.github-name {
+  color: white;
+  font-size: 28px;
+}
+
+.github-url {
+  text-decoration: none;
+  color: #385fed;
+}
+
+.bottom-box-top {
+  width: 100%;
+  height: 56px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.gits-point-right {
+  display: flex;
+  gap: 6px;
+}
+
+.gits-point {
+  display: flex;
+  flex-direction: column;
+}
+
+.point-text {
+  color: white;
+}
+
+.point-box {
+  background-color: #0d1116;
+  border: 1px solid #3d444d;
+  border-radius: 5px;
+  width: 84px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+.white {
+  color: white;
+}
+
+.fst {
+  color: #196c2e;
+}
+
+.scd {
+  color: #2ea043;
+}
+
+.trd {
+  color: #56d364;
+}
+
+.bottom-box-bottom {
+  width: 100%;
+  height: 264px;
+  display: flex;
+  align-items: center;
+}
+
+.commit-img-container {
+  width: 100%;
+  height: 240px;
+  background-color: #0d1116;
+  border: 1px solid #3d444d;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.commit-img {
+  width: 96%;
+  height: 230px;
+  background-color: gray;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
