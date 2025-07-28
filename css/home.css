@@ -132,3 +132,9 @@ main {
   color: white;
   font-weight: 600;
 }
+
+.home-box {
+  background-color: #0d1116;
+  border: 1px solid #2f353d;
+  border-radius: 5px;
+}
