@@ -110,7 +110,7 @@ main {
 }
 
 .main-container {
-  background-color: #0d1117;
+  background-color: #02040a;
   width: 100%;
   height: 100%;
   display: flex;
@@ -203,12 +203,13 @@ main {
   padding-left: 6px;
   padding-right: 6px;
   color: white;
-  background-color: transparent;
+  background-color: #0d1116;
   border: none;
   outline: none;
   resize: none;
   width: 100%;
   height: 92%;
+  font-size: 16px;
 }
 
 .description:hover {
@@ -241,4 +242,59 @@ main {
 .github-url {
   text-decoration: none;
   color: #385fed;
+}
+
+.bottom-box-top {
+  width: 100%;
+  height: 56px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.gits-point-right {
+  display: flex;
+  gap: 4px;
+}
+
+.gits-point {
+  display: flex;
+  flex-direction: column;
+}
+
+.point-text {
+  color: white;
+}
+
+.point-box {
+  background-color: #0d1116;
+  border: 1px solid #3d444d;
+  border-radius: 5px;
+  width: 84px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+.white {
+  color: white;
+}
+
+.fst {
+  color: #196c2e;
+}
+
+.scd {
+  color: #2ea043;
+}
+
+.trd {
+  color: #56d364;
+}
+
+.bottom-box-bottom {
+  background-color: yellow;
+  width: 100%;
+  height: 324px;
 }
