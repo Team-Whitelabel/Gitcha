@@ -118,3 +118,17 @@ main {
   align-items: center;
   justify-content: center;
 }
+
+.main-box {
+  background-color: gray;
+  width: 1000px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-text {
+  font-size: 26px;
+  color: white;
+  font-weight: 600;
+}
